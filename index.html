@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TriCore Solutions | Software, Website and App Development in Eldoret</title>
+  <meta name="description" content="TriCore Solutions builds custom software, websites and mobile and web applications for businesses in Eldoret and across Kenya.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="https://i.ibb.co/9m1WKdX5/favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+  <symbol id="i-app" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></symbol>
+  <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></symbol>
+  <symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></symbol>
+  <symbol id="i-support" viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></symbol>
+  <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.75c.5.4.8 1.02.8 1.66V17h6.4v-.59c0-.64.3-1.26.8-1.66A7 7 0 0 0 12 2z"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+  <symbol id="i-badge" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M9 13.5 7 22l5-3 5 3-2-8.5"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="#08080A" stroke="none" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.48 1.32 5l-1.4 5.11 5.23-1.37a9.9 9.9 0 0 0 4.76 1.21h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.06c-.24.68-1.4 1.31-1.94 1.36-.5.05-1.02.24-3.42-.71-2.9-1.15-4.75-4.1-4.9-4.29-.14-.19-1.17-1.55-1.17-2.96s.73-2.1 1-2.39c.24-.26.53-.33.71-.33h.51c.16 0 .38-.03.58.44l.83 2c.08.19.13.4.02.62-.1.22-.15.35-.3.53l-.42.49c-.14.16-.28.33-.12.6.16.28.7 1.16 1.51 1.88 1.04.93 1.92 1.22 2.19 1.36.28.14.44.12.6-.07l.68-.8c.22-.26.42-.22.7-.13l1.79.85c.19.09.33.14.38.22.05.09.05.5-.15 1z"/></symbol>
+</svg>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#top" aria-label="TriCore Solutions home"><span class="brand-logo" role="img" aria-label="TriCore Solutions - Web and mobile app development"></span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav">
+      <a href="#top">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#hours">Hours</a>
+      <a href="team.html">Team</a>
+      <a href="#contact" class="btn btn-orange nav-cta">Contact us</a>
+    </nav>
+  </div>
+</header>
+
+<div class="top-status">
+  <span class="status-dot"></span>
+  <span class="status-text">Checking...</span>
+  <span class="status-detail"></span>
+  <a href="#hours" class="top-status-link">Full hours</a>
+</div>
+
+<main id="top">
+  <section class="hero">
+    <h1>Need software, a website or an <span class="hot">app?</span></h1>
+    <p class="lead">We build modern, fast and reliable digital products that <span class="hot">grow your business.</span></p>
+    <div class="hero-actions">
+      <a class="btn btn-orange" href="#contact">Send an inquiry</a>
+      <a class="btn btn-line" href="#services">Our services</a>
+    </div>
+  </section>
+
+  <section class="stats-bar">
+    <div class="wrap stats-grid">
+      <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Years of Experience</span></div>
+      <div class="stat"><span class="stat-num">3</span><span class="stat-label">Core Services</span></div>
+      <div class="stat"><span class="stat-num">Eldoret</span><span class="stat-label">Based, Serving All of Kenya</span></div>
+      <div class="stat"><span class="stat-num">6</span><span class="stat-label">Days Open a Week</span></div>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="pill-wrap"><h2 class="pill">Our Services</h2></div>
+    <div class="showcase">
+      <div class="tiles tiles-left">
+        <article class="tile"><span class="tile-ic"><svg class="ic"><use href="#i-code"/></svg></span><h3>Software<br>Development</h3></article>
+        <article class="tile"><span class="tile-ic"><svg class="ic"><use href="#i-globe"/></svg></span><h3>Website<br>Development</h3></article>
+        <article class="tile"><span class="tile-ic"><svg class="ic"><use href="#i-app"/></svg></span><h3>Mobile<br>Applications</h3></article>
+      </div>
+
+      <div class="laptop" aria-hidden="true">
+        <div class="screen">
+          <div class="mini-nav"><b>TriCore</b><span>Home</span><span>Services</span><span>About</span><i>Contact us</i></div>
+          <div class="mini-body">
+            <div class="mini-text">
+              <strong>Digital Solutions<br>For <em>Modern Business</em></strong>
+              <small>We build software, websites and apps that help your business grow.</small>
+              <div class="mini-btns"><i>Get Started</i><u>Learn More</u></div>
+            </div>
+            <div class="mini-art"><span></span><span></span><span></span></div>
+          </div>
+          <div class="mini-stats"><div>Software</div><div>Websites</div><div>Apps</div><div>Support</div></div>
+        </div>
+        <div class="base"></div>
+        <div class="glow"></div>
+      </div>
+
+      <div class="tiles tiles-right">
+        <article class="tile"><span class="tile-ic"><svg class="ic"><use href="#i-monitor"/></svg></span><h3>Web<br>Applications</h3></article>
+        <article class="tile"><span class="tile-ic"><svg class="ic"><use href="#i-db"/></svg></span><h3>Business<br>Systems</h3></article>
+        <article class="tile"><span class="tile-ic"><svg class="ic"><use href="#i-support"/></svg></span><h3>Maintenance<br>and Support</h3></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="wrap about-grid">
+      <h2>A software company <span class="hot">rooted in Eldoret</span></h2>
+      <div>
+        <p>TriCore Solutions is a software, website and application development company based in Eldoret, Uasin Gishu County. For over two years we have worked with local businesses and organizations that need reliable software without paying for features they will never use.</p>
+        <p>Every project starts with a conversation about the problem, not a sales pitch. We then build in small, working steps so you see progress early and can change direction before it costs you time or money.</p>
+      </div>
+    </div>
+
+    <div class="wrap mv-grid">
+      <article class="mv-card">
+        <span class="mv-ic"><svg class="ic"><use href="#i-target"/></svg></span>
+        <h3>Our Mission</h3>
+        <p>To design and build software, websites and applications that are affordable, reliable and genuinely useful for businesses in Eldoret and across Kenya.</p>
+      </article>
+      <article class="mv-card">
+        <span class="mv-ic"><svg class="ic"><use href="#i-eye"/></svg></span>
+        <h3>Our Vision</h3>
+        <p>To become a trusted technology partner for growing Kenyan businesses, known for clear communication and software that keeps working long after launch.</p>
+      </article>
+    </div>
+
+    <div class="wrap">
+      <h3 class="why-heading">Why work with <span class="hot">TriCore</span></h3>
+      <ul class="why-list">
+        <li><svg class="ic"><use href="#i-check"/></svg>Software, websites and apps built specifically for your business, not a generic template</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>Direct communication throughout the project, with no middlemen</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>Based locally in Eldoret and familiar with the Kenyan market</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>Fair, transparent pricing agreed before work begins</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>Support after launch, not just a handover and goodbye</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="hours" class="section hours">
+    <div class="wrap hours-grid">
+      <div>
+        <h2>Our <span class="hot">business hours</span></h2>
+        <p>We are open six days a week to take your calls, messages and inquiries.</p>
+        <table class="hours-table">
+          <tr><th>Monday - Saturday</th><td>8:30 AM - 5:30 PM</td></tr>
+          <tr><th>Sunday</th><td>Closed</td></tr>
+        </table>
+        <p class="hours-note">Times shown are Eldoret, Kenya time (EAT).</p>
+      </div>
+      <div class="status-card">
+        <span class="status-dot"></span>
+        <span class="status-text">Checking...</span>
+        <p class="status-detail"></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Tell us what you <span class="hot">need</span></h2>
+        <p>Fill in the inquiry form and we will reply with questions and next steps.</p>
+      </div>
+      <div class="form-card">
+        <iframe id="jotform" title="TriCore Solutions inquiry form" src="https://form.jotform.com/262703207565052" loading="lazy" allow="geolocation; microphone; camera"></iframe>
+      </div>
+      <p class="form-fallback">Form not loading? <a href="https://form.jotform.com/262703207565052" target="_blank" rel="noopener">Open it in a new tab</a>.</p>
+
+      <div class="contact-bar">
+        <div><span class="bar-ic"><svg class="ic"><use href="#i-phone"/></svg></span><a href="tel:+254793520219">+254 793 520 219</a></div>
+        <div><span class="bar-ic"><svg class="ic"><use href="#i-pin"/></svg></span>Eldoret, Kenya</div>
+        <div><span class="bar-ic"><svg class="ic"><use href="#i-mail"/></svg></span><a href="mailto:tricoresolutions254@gmail.com">tricoresolutions254@gmail.com</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<a class="whatsapp-fab" href="https://wa.me/254793520219" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+  <svg class="ic"><use href="#i-wa"/></svg>
+</a>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> TriCore Solutions. Eldoret, Kenya.</p>
+  <p class="footer-links"><a href="team.html">Our Team</a> &middot; <a href="privacy.html">Privacy Policy</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

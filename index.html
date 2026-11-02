@@ -178,23 +178,7 @@
         <h2>Tell us what you <span class="hot">need</span></h2>
         <p>Fill in the inquiry form and we will reply with questions and next steps.</p>
       </div>
-     <style>
-  [hidden] { display: none !important; }
-  .captcha-gate { display: flex; flex-direction: column; align-items: center; gap: 1rem; padding: 2rem; background: var(--panel); border: 1.5px solid var(--edge); border-radius: 16px; text-align: center; }
-  .captcha-gate p { margin: 0; color: var(--muted); }
-</style>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<script>
-  function onCaptchaSuccess() {
-    document.getElementById("captcha-gate").hidden = true;
-    document.getElementById("form-card").hidden = false;
-  }
-</script>
-<div class="captcha-gate" id="captcha-gate">
-  <p>Please confirm you are human to open the inquiry form.</p>
-  <div class="g-recaptcha" data-sitekey="6LdSsQwuAAAAAIEx_WZzZBg7Y3Ng1hfbe1Do5NNm" data-callback="onCaptchaSuccess" data-theme="dark"></div>
-</div>
-<div class="form-card" id="form-card" hidden>
+           <div class="form-card">
         <iframe id="jotform" title="TriCore Solutions inquiry form" src="https://form.jotform.com/262703207565052" loading="lazy" allow="geolocation; microphone; camera"></iframe>
       </div>
       <p class="form-fallback">Form not loading? <a href="https://form.jotform.com/262703207565052" target="_blank" rel="noopener">Open it in a new tab</a>.</p>
